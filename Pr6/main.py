@@ -13,6 +13,5 @@ def Kalendar(year):
     element = zodiac_elements[element_index]
     
     return f'С новым {year} годом! Это год {element} {animal}! Вам положен соицальный кредит и кошка-жена.'
-
 input_year = int(input("Введите номер года -> "))
 print(Kalendar(input_year))
