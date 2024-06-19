@@ -26,7 +26,6 @@
 | Data 2          | Result 2        | Condition 2      |
 | Data 3          | Result 3        | Condition 3      |
 
-
 ##### Блок-схема: #####
 
 ![блок-схема](block.png)
