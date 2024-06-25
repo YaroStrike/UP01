@@ -71,7 +71,7 @@ class Quiz(tk.Tk):
                 grade = "4"
             elif percent >= 90:
                 grade = "5"
-            with open("answers.txt", "a") as file:
+            with open("answers.txt", "w") as file:
                 file.write(f"{self.questions[self.current_question]['вопрос']}: {selected_answer}\n")
             messagebox.showinfo("Тест пройден!", f"Вы правы на {self.score} из {len(self.questions)} вопросов ({round(percent, 2)}%) => Оценка - {grade}")
             self.destroy()
