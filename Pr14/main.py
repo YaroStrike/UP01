@@ -11,8 +11,8 @@ bigger = len(selected)
 
 filter_matrix = matrix[:, ~np.any(matrix == 0, axis=0)]
 
-print("Количество столбцов с большим средним значением:", bigger)
 print("Рандомная матрица:")
 print(matrix)
+print("Количество столбцов с большим средним значением:", bigger)
 print("Уплотнённая матрица:")
 print(filter_matrix)
